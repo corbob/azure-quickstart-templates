@@ -20,6 +20,9 @@
     Set-ExecutionPolicy -ExecutionPolicy Bypass -Force
     Import-DscResource -ModuleName TemplateHelpDSC
 
+    [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072
+    Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
     $LogFolder = "TempLog"
     $LogPath = "c:\$LogFolder"
     $DName = $DomainName.Split(".")[0]
