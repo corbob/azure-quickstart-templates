@@ -85,7 +85,12 @@
     "vmrole": [
       "DC",
       "DPMP",
-      "Client"
+      "Client1",
+      "Client2",
+      "Client3",
+      "Client4",
+      "Client5",
+      "Client6"
     ],
     "vmInfo":{
       "DC":{
@@ -110,8 +115,68 @@
           "version": "latest"
         }
       },
-      "Client": {
+      "Client1": {
         "name":"Cl01",
+        "disktype":"Premium_LRS",
+        "size":"Standard_B2s",
+        "imageReference":{
+          "publisher": "MicrosoftWindowsDesktop",
+          "offer": "Windows-10",
+          "sku": "19h1-pro",
+          "version": "latest"
+        }
+      }
+    },
+      "Client2": {
+        "name":"Cl02",
+        "disktype":"Premium_LRS",
+        "size":"Standard_B2s",
+        "imageReference":{
+          "publisher": "MicrosoftWindowsDesktop",
+          "offer": "Windows-10",
+          "sku": "19h1-pro",
+          "version": "latest"
+        }
+      }
+    },
+      "Client3": {
+        "name":"Cl03",
+        "disktype":"Premium_LRS",
+        "size":"Standard_B2s",
+        "imageReference":{
+          "publisher": "MicrosoftWindowsDesktop",
+          "offer": "Windows-10",
+          "sku": "19h1-pro",
+          "version": "latest"
+        }
+      }
+    },
+      "Client4": {
+        "name":"Cl04",
+        "disktype":"Premium_LRS",
+        "size":"Standard_B2s",
+        "imageReference":{
+          "publisher": "MicrosoftWindowsDesktop",
+          "offer": "Windows-10",
+          "sku": "19h1-pro",
+          "version": "latest"
+        }
+      }
+    },
+      "Client5": {
+        "name":"Cl05",
+        "disktype":"Premium_LRS",
+        "size":"Standard_B2s",
+        "imageReference":{
+          "publisher": "MicrosoftWindowsDesktop",
+          "offer": "Windows-10",
+          "sku": "19h1-pro",
+          "version": "latest"
+        }
+      }
+    },
+      "Client6": {
+        "name":"Cl06",
         "disktype":"Premium_LRS",
         "size":"Standard_B2s",
         "imageReference":{
