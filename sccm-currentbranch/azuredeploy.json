@@ -75,21 +75,29 @@
       "DC",
       "DPMP",
       "Client",
+      "Client",
+      "Client",
       "PS"
     ],
     "vmname": [
       "DC01",
       "DPMP01",
       "Cl01",
+      "Cl02",
+      "Cl03",
       "PS01"
     ],
     "vmDiskType": [
       "Premium_LRS",
       "Premium_LRS",
       "Premium_LRS",
+      "Premium_LRS",
+      "Premium_LRS",
       "Premium_LRS"
     ],
     "vmSize": [
+      "Standard_B2s",
+      "Standard_B2s",
       "Standard_B2s",
       "Standard_B2s",
       "Standard_B2s",
