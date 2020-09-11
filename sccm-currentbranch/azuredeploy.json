@@ -125,7 +125,7 @@
           "sku": "19h1-pro",
           "version": "latest"
         }
-      }
+      },
       "Client2": {
         "name":"Cl02",
         "disktype":"Premium_LRS",
@@ -136,7 +136,7 @@
           "sku": "19h1-pro",
           "version": "latest"
         }
-      }
+      },
       "Client3": {
         "name":"Cl03",
         "disktype":"Premium_LRS",
@@ -147,7 +147,7 @@
           "sku": "19h1-pro",
           "version": "latest"
         }
-      }
+      },
       "Client4": {
         "name":"Cl04",
         "disktype":"Premium_LRS",
@@ -158,7 +158,7 @@
           "sku": "19h1-pro",
           "version": "latest"
         }
-      }
+      },
       "Client5": {
         "name":"Cl05",
         "disktype":"Premium_LRS",
@@ -169,7 +169,7 @@
           "sku": "19h1-pro",
           "version": "latest"
         }
-      }
+      },
       "Client6": {
         "name":"Cl06",
         "disktype":"Premium_LRS",
